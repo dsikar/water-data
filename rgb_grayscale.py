@@ -9,7 +9,7 @@ if not os.path.exists(path):
     command = "git clone https://github.com/dsikar/water-data"
     os.system(command)
 
-iau = ImageAttribUtils()
+iau = ImageAttribUtils.ImageAttribUtils()
 
 files = sorted(glob.glob("water-data/farson-digital/*/*.png"))
 for file in files:
